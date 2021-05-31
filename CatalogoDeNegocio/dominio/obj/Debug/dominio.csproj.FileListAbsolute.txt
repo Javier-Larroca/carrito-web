@@ -1,0 +1,18 @@
+C:\Users\evasquez\Desktop\Elmer - Privado\UTN\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\bin\Debug\dominio.dll
+C:\Users\evasquez\Desktop\Elmer - Privado\UTN\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\bin\Debug\dominio.pdb
+C:\Users\evasquez\Desktop\Elmer - Privado\UTN\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.csprojAssemblyReference.cache
+C:\Users\evasquez\Desktop\Elmer - Privado\UTN\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\evasquez\Desktop\Elmer - Privado\UTN\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
+C:\Users\evasquez\Desktop\Elmer - Privado\UTN\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb
+C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\dominio\bin\Debug\dominio.dll
+C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\dominio\bin\Debug\dominio.pdb
+C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.csprojAssemblyReference.cache
+C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
+C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\bin\Debug\dominio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\bin\Debug\dominio.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.csprojAssemblyReference.cache
+C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb
