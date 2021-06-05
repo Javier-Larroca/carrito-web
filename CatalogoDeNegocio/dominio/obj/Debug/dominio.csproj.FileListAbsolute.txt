@@ -16,3 +16,9 @@ C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegoc
 C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
 C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\bin\Debug\dominio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\bin\Debug\dominio.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.AssemblyReference.cache
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb

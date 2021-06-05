@@ -65,3 +65,29 @@ C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegoc
 C:\Users\evasquez\Desktop\Git\Programacion III\Actividad2-Prog.3\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.pdb
 C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.formArticulo.resources
 C:\Users\javie\Documents\UTN\Programacion III\Ejercicios Prog. III\Actividad 2\Actividad2-Prog.3\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.formArticuloDetalles.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\presentacion.exe.config
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\presentacion.exe
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\presentacion.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\aa-DJ\presentacion.resources.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\dominio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\negocio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\dominio.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\negocio.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.AssemblyReference.cache
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.formArticulo.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.formArticuloDetalles.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.FormCategoria.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.FormMarca.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.BusquedaArticulo.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VentanaInicio.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VentanaPrincipal.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.Properties.Resources.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VistaCategorias.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VistaMarcas.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.FormMarca.aa-DJ.resources
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.GenerateResource.cache
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.CoreCompileInputs.cache
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\aa-DJ\presentacion.resources.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.CopyComplete
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.exe
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.pdb

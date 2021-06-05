@@ -146,3 +146,7 @@ C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\Car
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\CarritoWeb\obj\Debug\CarritoWeb.csproj.CopyComplete
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\CarritoWeb\obj\Debug\CarritoWeb.dll
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\CarritoWeb\obj\Debug\CarritoWeb.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\CarritoWeb\bin\dominio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\CarritoWeb\bin\negocio.dll
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\CarritoWeb\bin\dominio.pdb
+C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\CarritoWeb\bin\negocio.pdb

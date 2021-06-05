@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace dominio
 {
-    class ArticuloCarrito:Articulo
+    public class ArticuloCarrito:Articulo
     {
         public int Cantidad { get; set; }
 
 
-        public ArticuloCarrito(String codigo, String nombre, String descripcion, Marca marcacb, Categoria cat, decimal precio, String imagen)
+        public ArticuloCarrito(int id, String codigo, String nombre, String descripcion, Marca marcacb, Categoria cat, decimal precio, String imagen)
         {
+            Id = id;
             CodigoArticulo = codigo;
             Nombre = nombre;
             Descripcion = descripcion;
@@ -28,12 +29,12 @@ namespace dominio
             Cantidad = 1;
         }
 
-        public void sumar()
+        public void sumarCantidad()
         {
             Cantidad++;            
         }
 
-        public void restar()
+        public void restarCantidad()
         {
             Cantidad--;
         }
