@@ -8,26 +8,31 @@ namespace dominio
 {
     public class Carrito
     {
-        public List <ArticuloCarrito> ListaArticulos{ get; set; }
-        
-        public void agregarArticuloDeLista(ArticuloCarrito articulo)
+        public List <ItemCarrito> ListaDeItems{ get; set; }
+
+        public Carrito()
         {
-            int posicionDeArticulo = ListaArticulos.IndexOf(articulo);
-            if (posicionDeArticulo == -1) ListaArticulos.Add(articulo);
-            else ListaArticulos[posicionDeArticulo].sumarCantidad();
+            ListaDeItems = new List<ItemCarrito>();
+        }
+        public void agregarItemDeLista(ItemCarrito item)
+        {
+            int posicionDeItem = ListaDeItems.FindIndex(x => x.IdArticulo == item.IdArticulo);
+            if (posicionDeItem == -1) 
+                ListaDeItems.Add(item);
+            else ListaDeItems[posicionDeItem].sumarCantidad();
 
             //OTRA FORMA DE BUSCAR EL INDEX
-            //ListaArticulos.FindIndex(item => item.Id == articulo.Id);
-        }
-        
-        public void descontarCantidadDeArticulosDeLista(ArticuloCarrito articulo)
-        {
-            ListaArticulos[ListaArticulos.IndexOf(articulo)].restarCantidad();
+            /*ListaDeItems.IndexOf(item);*/
         }
 
-        public void eliminarArticuloDeLista(ArticuloCarrito articulo)
+        public void descontarCantidadDeItemsDeLista(ItemCarrito item)
         {
-            ListaArticulos.Remove(articulo);
+            ListaDeItems[ListaDeItems.IndexOf(item)].restarCantidad();
+        }
+
+        public void eliminarItemDeLista(ItemCarrito item)
+        {
+            ListaDeItems.Remove(item);
         }
     }
 }

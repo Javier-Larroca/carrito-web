@@ -15,21 +15,12 @@ namespace CarritoWeb
     {
 
         /// <summary>
-        /// AgregarArticulo control.
+        /// Lista control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button AgregarArticulo;
-
-        /// <summary>
-        /// Detalles control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Detalles;
+        protected global::System.Web.UI.WebControls.Repeater Lista;
     }
 }
