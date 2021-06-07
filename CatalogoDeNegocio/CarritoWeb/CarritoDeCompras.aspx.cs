@@ -26,12 +26,44 @@ namespace CarritoWeb
                 {
                     Subtitulo.Text = SubtituloSinItems;
                 }
-                else Subtitulo.Text = SubtituloConItems;
+                else
+                {
+                    Subtitulo.Text = SubtituloConItems;
+                    if (!IsPostBack)
+                    {
+                        //Repetidor Lista
+                        ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
+                        ItemsEnCarrito.DataBind();
+                    }
+                }
             }
             catch
             {
                 Response.Redirect("Error.aspx");
             }
+        }
+
+        protected void Eliminar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
+                int idArticuloAEliminar = int.Parse(((Button)sender).CommandArgument);
+                Carrito.eliminarItemDeLista(idArticuloAEliminar);
+                Session.Add("CarritoDeCompras", Carrito);
+                ItemsEnCarrito.DataSource = null;
+                ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
+                ItemsEnCarrito.DataBind();
+            }
+            catch
+            {
+                Response.Redirect("Error.aspx");
+            }
+        }
+
+        protected void EliminarCantidad_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

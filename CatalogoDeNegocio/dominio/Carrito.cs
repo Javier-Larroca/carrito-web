@@ -16,23 +16,28 @@ namespace dominio
         }
         public void agregarItemDeLista(ItemCarrito item)
         {
-            int posicionDeItem = ListaDeItems.FindIndex(x => x.IdArticulo == item.IdArticulo);
-            if (posicionDeItem == -1) 
+            int pos = posicionDeItem(item.IdArticulo);
+            if (pos == -1) 
                 ListaDeItems.Add(item);
-            else ListaDeItems[posicionDeItem].sumarCantidad();
-
-            //OTRA FORMA DE BUSCAR EL INDEX
-            /*ListaDeItems.IndexOf(item);*/
+            else ListaDeItems[pos].sumarCantidad();
         }
 
-        public void descontarCantidadDeItemsDeLista(ItemCarrito item)
+        public void descontarCantidadDeItemsDeLista(int idArticuloADescontar)
         {
-            ListaDeItems[ListaDeItems.IndexOf(item)].restarCantidad();
+            ListaDeItems[posicionDeItem(idArticuloADescontar)].restarCantidad();
         }
 
-        public void eliminarItemDeLista(ItemCarrito item)
+        public bool eliminarItemDeLista(int idArticuloAEliminar)
         {
-            ListaDeItems.Remove(item);
+            if (ListaDeItems.Remove(ListaDeItems[posicionDeItem(idArticuloAEliminar)]))
+                return true;
+            else return false;
+        }
+
+        public int posicionDeItem(int idArticuloABuscar)
+        {
+            int posicion = ListaDeItems.FindIndex(x => x.IdArticulo == idArticuloABuscar);
+            return posicion;
         }
     }
 }

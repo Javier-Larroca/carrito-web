@@ -67,7 +67,7 @@ namespace CarritoWeb
 
         protected void Detalles_Click(object sender, EventArgs e)
         {
-
+            //Falta armar 
         }
 
     }
