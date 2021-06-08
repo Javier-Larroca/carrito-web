@@ -70,5 +70,30 @@ namespace CarritoWeb
             //Falta armar 
         }
 
+        protected void Carrito_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                //Paso los valores de CommandArgument a un array de string, al ser varios valores primero los divido 
+                // por un array de caracteres que solo tiene "," ya que asi estan en el CommandArgument del boton (Linea 34)
+                //Aca declaro el array de string de 3 
+                String[] valores = new String[3];
+                //A este array, le asigno el CommandArgument dividido por ","
+                valores = ((ImageButton)sender).CommandArgument.Split(new char[] { ',' });
+                //Creo un nuevo ItemCarrito pasandole como parametro los valores del array
+                //[0] = Id, [1] = Nombre, [2] = Precio. 
+                ItemCarrito nuevo = new ItemCarrito(int.Parse(valores[0]), valores[1], Convert.ToDecimal(valores[2]));
+                Carrito = (Carrito)Session["CarritoDeCompras"];
+                if (Carrito == null)
+                    Carrito = new Carrito();
+                Carrito.agregarItemDeLista(nuevo);
+
+                Session.Add("CarritoDeCompras", Carrito);
+            }
+            catch
+            {
+                Response.Redirect("Error.aspx");
+            }
+        }
     }
 }
