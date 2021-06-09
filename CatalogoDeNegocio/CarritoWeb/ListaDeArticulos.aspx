@@ -18,9 +18,10 @@
                           </p>
                             
                           <!-- Falta agregar icono, se hace desde el css -->
-                            <%--<asp:Button Text="Carrito" class="btn btn-dark" ID="agregararticulo" OnClick="AgregarArticulo_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio")%>' runat="server"/> --%>
-                            <asp:ImageButton src="img/cart-plus-fill.svg" ID="Carrito" OnClick="Carrito_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio")%>' runat="server" />
-                     </div>
+                            <%--<asp:Button Text="Carrito" class="btn btn-dark" ID="agregararticulo" OnClick="AgregarArticulo_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio")%>' runat="server" />--%> 
+
+                          <asp:ImageButton src="img/cart-plus-fill.svg" ID="Carrito" OnClick="Carrito_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio")%>' runat="server" />
+                          </div>
                    </div>
                  </div>
 
