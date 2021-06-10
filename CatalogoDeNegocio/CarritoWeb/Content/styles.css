@@ -1,10 +1,72 @@
 ﻿.container-fluid
 {
-    width: 100%;
-    margin-right: 0px;
+    width: 20%;
+    margin-right: 5px;
 }
 
 
 .elementos-sidebar {
     font-size: 15px;
+}
+
+.iconoCarrito{
+    width: 28px;
+}
+
+.linkCard{
+    text-decoration: none;
+    color: black;
+}
+
+.linkCard:hover {
+  color: black;
+}
+
+.card:hover {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 5px;
+}
+
+.card img{
+    height: 250px;
+    width: auto;
+}
+
+.CuerpoPrincipal{
+    min-height: 70vh;
+}
+
+.navbar{
+    float: right;
+    width: 89%;
+    margin-left: 0px;
+    margin-top: -14px;
+}
+
+.iconosCard{
+    list-style: none;
+    display:contents;
+}
+
+.iconosCard li:first-child{
+    display: inline-block;
+    float: right;
+}
+
+
+.cantidadItems{
+    font-size: 40px;
+}
+
+.iconosCardCarrito{
+    list-style:none;
+    display:contents;
+}
+
+.iconosCardCarrito li{
+    display: inline-block;
+}
+
+.iconosCardCarrito li:last-child{
+    margin-left: 160px;
 }

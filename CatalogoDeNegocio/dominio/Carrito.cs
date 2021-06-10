@@ -27,6 +27,11 @@ namespace dominio
             ListaDeItems[posicionDeItem(idArticuloADescontar)].restarCantidad();
         }
 
+        public void aumentarCantidadDeItemsDeLista(int idArticuloAAumentar)
+        {
+            ListaDeItems[posicionDeItem(idArticuloAAumentar)].sumarCantidad();
+        }
+
         public bool eliminarItemDeLista(int idArticuloAEliminar)
         {
             if (ListaDeItems.Remove(ListaDeItems[posicionDeItem(idArticuloAEliminar)]))

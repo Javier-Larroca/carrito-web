@@ -8,22 +8,28 @@
         <asp:Repeater runat="server" ID="Lista">
             <ItemTemplate>
 
-                  <div class="col">
-                    <div class="card">
-                      <img src="<%#Eval("UrlImagen") %>" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title"><%#Eval("Nombre") %></h5>
-                        <p class="card-text"><%#Eval("Descripcion") %>.</p>
-                          <p>
-                          </p>
-                            
-                          <!-- Falta agregar icono, se hace desde el css -->
-                            <%--<asp:Button Text="Carrito" class="btn btn-dark" ID="agregararticulo" OnClick="AgregarArticulo_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio")%>' runat="server" />--%> 
+                <div class="col">
+                    <a class="linkCard" href="DetalleArticulo.aspx?id=<%#Eval("Id") %>">
+                        <div class="card">
+                            <img src="<%#Eval("UrlImagen") %>" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><%#Eval("Nombre") %></h5>
+                                <p class="card-text"><%#Eval("Descripcion") %>.</p>
 
-                          <asp:ImageButton src="img/cart-plus-fill.svg" ID="Carrito" OnClick="Carrito_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio")%>' runat="server" />
-                          </div>
-                   </div>
-                 </div>
+                                <ul class="iconosCard">
+                                    <li>
+                                        <asp:ImageButton src="img/cart-plus-fill.svg" class="iconoCarrito" ID="Carrito" OnClick="Carrito_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio") + "," + Eval("UrlImagen")%>' Style="width: 28px;" runat="server" />
+                                    </li>
+                                    <li>
+                                        <h5>
+                                            <%#Eval ("Precio") %>
+                                        </h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                </div>
 
             </ItemTemplate>
         </asp:Repeater>

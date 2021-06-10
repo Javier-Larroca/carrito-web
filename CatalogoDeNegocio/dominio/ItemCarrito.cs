@@ -11,14 +11,16 @@ namespace dominio
         public int Cantidad { get; set; }
         public int IdArticulo { get; set; }
         public String NombreArticulo { get; set; }
+        public String UrlImagenArticulo { get; set; }
         public decimal Precio { get; set; }
 
-        public ItemCarrito(int idArticulo, String nombre, decimal precio)
+        public ItemCarrito(int idArticulo, String nombre, decimal precio, String UrlImagen)
         {
             IdArticulo = idArticulo;
             Cantidad = 1;
             NombreArticulo = nombre;
             Precio = (Cantidad *precio);
+            UrlImagenArticulo = UrlImagen;
         }
 
         public ItemCarrito()

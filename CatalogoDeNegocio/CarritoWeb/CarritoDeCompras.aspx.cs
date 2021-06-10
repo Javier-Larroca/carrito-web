@@ -61,9 +61,59 @@ namespace CarritoWeb
             }
         }
 
-        protected void EliminarCantidad_Click(object sender, EventArgs e)
+        protected void EliminarItem_Click(object sender, ImageClickEventArgs e)
         {
-
+            try
+            {
+                //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
+                int idArticuloAEliminar = int.Parse(((ImageButton)sender).CommandArgument);
+                Carrito.eliminarItemDeLista(idArticuloAEliminar);
+                Session.Add("CarritoDeCompras", Carrito);
+                ItemsEnCarrito.DataSource = null;
+                ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
+                ItemsEnCarrito.DataBind();
+            }
+            catch
+            {
+                Response.Redirect("Error.aspx");
+            }
         }
+
+        protected void Restar_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
+                int idArticuloAEliminar = int.Parse(((ImageButton)sender).CommandArgument);
+                Carrito.descontarCantidadDeItemsDeLista(idArticuloAEliminar);
+                Session.Add("CarritoDeCompras", Carrito);
+                ItemsEnCarrito.DataSource = null;
+                ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
+                ItemsEnCarrito.DataBind();
+            }
+            catch
+            {
+                Response.Redirect("Error.aspx");
+            }
+        }
+
+        protected void Sumar_Click(object sender, ImageClickEventArgs e)
+        {
+            try
+            {
+                //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
+                int idArticuloAEliminar = int.Parse(((ImageButton)sender).CommandArgument);
+                Carrito.aumentarCantidadDeItemsDeLista(idArticuloAEliminar);
+                Session.Add("CarritoDeCompras", Carrito);
+                ItemsEnCarrito.DataSource = null;
+                ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
+                ItemsEnCarrito.DataBind();
+            }
+            catch
+            {
+                Response.Redirect("Error.aspx");
+            }
+        }
+
     }
 }
