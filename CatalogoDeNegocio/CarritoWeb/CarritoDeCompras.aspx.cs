@@ -84,8 +84,8 @@ namespace CarritoWeb
             try
             {
                 //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
-                int idArticuloAEliminar = int.Parse(((ImageButton)sender).CommandArgument);
-                Carrito.descontarCantidadDeItemsDeLista(idArticuloAEliminar);
+                int idArticuloARestar = int.Parse(((ImageButton)sender).CommandArgument);
+                Carrito.descontarCantidadDeItemsDeLista(idArticuloARestar);
                 Session.Add("CarritoDeCompras", Carrito);
                 ItemsEnCarrito.DataSource = null;
                 ItemsEnCarrito.DataSource = Carrito.ListaDeItems;

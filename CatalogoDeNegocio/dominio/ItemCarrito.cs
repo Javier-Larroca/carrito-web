@@ -37,6 +37,7 @@ namespace dominio
         public void restarCantidad()
         {
             if (Cantidad != 0) Cantidad--;
+            Precio = (Cantidad * Precio);
         }
 
         public override string ToString()

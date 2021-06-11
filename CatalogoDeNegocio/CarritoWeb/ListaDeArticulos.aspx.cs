@@ -96,5 +96,51 @@ namespace CarritoWeb
             }
         }
 
+        protected void Filtro_Click(object sender, EventArgs e)
+        {
+            List<Articulo> listaFiltrada = new List<Articulo>();
+            try
+            {
+                //De entrada averiguamos si ingresaron un numero, asi despues evitamos errores de formato al filtrar buscando precio
+                bool esNumero = FiltroIngresado.Text.All(char.IsDigit);
+
+                if (FiltroIngresado.Text != "" && OpcionesFiltro.SelectedValue != " ")
+                {
+                    if(!esNumero && OpcionesFiltro.SelectedValue == "Precio")
+                    {
+                        Aclaraciones.Text = "Debe ingresar números sin decimales para realizar la busqueda por Precio";
+                        listaFiltrada = listaDeArticulos;
+                    }
+                    else
+                    {
+                            listaFiltrada = listaDeArticulos.FindAll(Busqueda =>
+                            Busqueda.Nombre.ToUpper().Contains(FiltroIngresado.Text.ToUpper()) && OpcionesFiltro.SelectedValue == "Nombre"
+                         || Busqueda.Descripcion.ToUpper().Contains(FiltroIngresado.Text.ToUpper()) && OpcionesFiltro.SelectedValue == "Descripción"
+                         || Busqueda.Marca.Nombre.ToUpper().Contains(FiltroIngresado.Text.ToUpper()) && OpcionesFiltro.SelectedValue == "Marca"
+                         //Aca agarro y y hago un if de una linea para el texto, si tiene solo numeros entonces lo deja como esta y lo convierte a decimal.
+                         //En caso de que tenga letras le asigna un 0 directamente
+                         || Busqueda.Precio >= Convert.ToDecimal(!esNumero ? "0" : FiltroIngresado.Text) && OpcionesFiltro.SelectedValue == "Precio");
+                    }
+
+                    Session.Remove("ListadoDeArticulos");
+                    Session.Add("ListadoDeArticulos", listaFiltrada);
+                    //Repetidor Lista
+                    Lista.DataSource = listaFiltrada;
+                    Lista.DataBind();
+                    
+
+                }
+                else
+                {
+                    Aclaraciones.Text = "Debe completar valor a buscar y seleccionar filtro";
+                }
+            }
+            catch (Exception ex)
+            {
+                Session.Add("Error", ex.ToString());
+                Response.Redirect("Error.aspx");
+            }
+
+        }
     }
 }

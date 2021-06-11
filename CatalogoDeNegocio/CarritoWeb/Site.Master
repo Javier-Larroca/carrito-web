@@ -36,15 +36,15 @@
 
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="Default">INICIO</a>
+                <a class="nav-link active" aria-current="page" href="ListaDeArticulos">INICIO</a>
                 <a class="nav-link" href="Contact">CONTACTO</a>
                 <a class="nav-link" href="About">SOMOS</a>
               </div>
             </div>
           </div>
         </nav>
-        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 148px; min-height: 75vh; float: left; margin-top: -1%;">
-            <a class="navbar-brand" href="Default">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 148px; min-height: 105vh; float: left; margin-top: -1%;">
+            <a class="navbar-brand" href="ListaDeArticulos">
                 <img src="img/LAVE.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
                 <span class="fs-4 text-white">LAVE</span>
             </a>

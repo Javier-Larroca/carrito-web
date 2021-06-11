@@ -10,6 +10,7 @@
     <form id="form1" runat="server">
         <div>
             <p>ERROR EN LA PAGINA</p>
+            <asp:Label ID="ExceptionError" runat="server"></asp:Label>
         </div>
     </form>
 </body>

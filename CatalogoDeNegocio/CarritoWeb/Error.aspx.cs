@@ -11,7 +11,7 @@ namespace CarritoWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ExceptionError.Text = Session["Error"] == null ? "No existen errores en la página" : (string)Session["Error"];
         }
     }
 }
