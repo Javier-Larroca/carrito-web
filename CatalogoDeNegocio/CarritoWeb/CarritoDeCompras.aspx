@@ -4,7 +4,8 @@
 <h1>Items en Carrito</h1>    
     <asp:Label ID="Subtitulo" runat="server"></asp:Label>
     <%if (Subtitulo.Text == SubtituloConItems)
-        { %>
+        {
+            %>
 
         <asp:Repeater runat="server" ID="ItemsEnCarrito">
             <ItemTemplate>
@@ -35,10 +36,12 @@
                       </ul>
                       <%--<asp:Button class="btn btn-dark" Text="Eliminar todo el item de Carrito" ID="Button1"  OnClick="Eliminar_Click" CommandArgument='<%#Eval("IdArticulo")%>' runat="server" />--%>
                   </div>
+
                 </div>
               </div>
             </div>
             </ItemTemplate>
+            
         </asp:Repeater>
     <%}%>
 </asp:Content>

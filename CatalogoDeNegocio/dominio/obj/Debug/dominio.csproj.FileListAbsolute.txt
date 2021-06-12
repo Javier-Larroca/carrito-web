@@ -22,3 +22,9 @@ C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dom
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\bin\Debug\dominio.dll
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\bin\Debug\dominio.pdb
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csprojAssemblyReference.cache
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb

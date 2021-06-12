@@ -24,7 +24,7 @@
                 <div class="col">
                     <a class="linkCard" href="DetalleArticulo.aspx?id=<%#Eval("Id") %>">
                         <div class="card">
-                            <img src="<%#Eval("UrlImagen") %>" class="card-img-top" alt="...">
+                            <img src="<%#Eval("UrlImagen") %>" class="card-img-top center" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title"><%#Eval("Nombre") %></h5>
                                 <p class="card-text"><%#Eval("Descripcion") %>.</p>
