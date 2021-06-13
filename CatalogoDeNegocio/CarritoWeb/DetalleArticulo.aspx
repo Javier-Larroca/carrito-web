@@ -17,5 +17,8 @@
             </div>
         </div>
     </div>
+    <a href="ListaDeArticulos">
+        <button type="button" class="btn btn-secondary">Volver</button>
+    </a>
 
 </asp:Content>
