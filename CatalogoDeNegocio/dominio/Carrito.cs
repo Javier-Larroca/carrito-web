@@ -11,10 +11,22 @@ namespace dominio
         public List <ItemCarrito> ListaDeItems{ get; set; }
         public decimal importeTotal { get; set; }
 
+        public int cantidadItems { get; set; }
+
         public Carrito()
         {
             ListaDeItems = new List<ItemCarrito>();
             importeTotal = 0;
+            cantidadItems = 0;
+        }
+
+        public void calcularCantidadItems()
+        {
+            cantidadItems = 0;
+            foreach (ItemCarrito item in ListaDeItems)
+            {
+                cantidadItems += item.Cantidad;
+            }
         }
 
         public void sumarImporteTotal()

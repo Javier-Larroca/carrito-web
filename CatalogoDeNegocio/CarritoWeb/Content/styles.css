@@ -27,8 +27,14 @@
     border-radius: 5px;
 }
 
-.card img{
-    height: 370px;
+.imgCarrito{
+    width: 200px;
+    height: auto;
+}
+
+.imgArticulo {
+    width: auto;
+    height: 330px;
 }
 
 .center {

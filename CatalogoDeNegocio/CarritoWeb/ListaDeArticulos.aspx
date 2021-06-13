@@ -24,14 +24,14 @@
                 <div class="col">
                     <a class="linkCard" href="DetalleArticulo.aspx?id=<%#Eval("Id") %>">
                         <div class="card">
-                            <img src="<%#Eval("UrlImagen") %>" class="card-img-top center" alt="...">
+                            <img src="<%#Eval("UrlImagen") %>" class="card-img-top imgArticulo center" alt="Imagen Articulo">
                             <div class="card-body">
                                 <h5 class="card-title"><%#Eval("Nombre") %></h5>
                                 <p class="card-text"><%#Eval("Descripcion") %>.</p>
 
                                 <ul class="iconosCard">
                                     <li>
-                                        <asp:ImageButton src="img/cart-plus-fill.svg" class="iconoCarrito" ID="Carrito" OnClick="Carrito_Click" CommandArgument='<%#Eval("Id") + "," + Eval("Nombre") + "," + Eval("Precio") + "," + Eval("UrlImagen")%>' Style="width: 28px;" runat="server" />
+                                        <asp:ImageButton src="img/cart-plus-fill.svg" class="iconoCarrito" ID="Carrito" OnClick="Carrito_Click" CommandArgument='<%#Eval("Id") + "|" + Eval("Nombre") + "|" + Eval("Precio") + "|" + Eval("UrlImagen")%>' Style="width: 28px;" runat="server" />
                                     </li>
                                     <li>
                                         <h5>

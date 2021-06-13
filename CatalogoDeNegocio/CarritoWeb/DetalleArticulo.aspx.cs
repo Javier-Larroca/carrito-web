@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using negocio;
+using dominio;
 
 namespace CarritoWeb
 {
@@ -11,6 +13,16 @@ namespace CarritoWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            try
+            {
+                string Id = Request.QueryString["Id"];
+
+                lblSeleccionado.Text=Id;
+            }
+            catch
+            {
+                Response.Redirect("Error.aspx");
+            }
 
         }
     }

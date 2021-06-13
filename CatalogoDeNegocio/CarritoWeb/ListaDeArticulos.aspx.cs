@@ -46,7 +46,7 @@ namespace CarritoWeb
                 //Aca declaro el array de string de 3 
                 String[] valores = new String[4];
                 //A este array, le asigno el CommandArgument dividido por ","
-                valores = ((Button)sender).CommandArgument.Split(new char[] { ',' });
+                valores = ((Button)sender).CommandArgument.Split(new char[] { '|' });
                 //Creo un nuevo ItemCarrito pasandole como parametro los valores del array
                 //[0] = Id, [1] = Nombre, [2] = Precio. 
                 ItemCarrito nuevo = new ItemCarrito(int.Parse(valores[0]), valores[1], Convert.ToDecimal(valores[2]), valores[4]);
@@ -56,6 +56,8 @@ namespace CarritoWeb
                 Carrito.agregarItemDeLista(nuevo);
 
                 Session.Add("CarritoDeCompras", Carrito);
+
+                
             }
             catch
             {
@@ -79,7 +81,7 @@ namespace CarritoWeb
                 //Aca declaro el array de string de 3 
                 String[] valores = new String[4];
                 //A este array, le asigno el CommandArgument dividido por ","
-                valores = ((ImageButton)sender).CommandArgument.Split(new char[] { ',' });
+                valores = ((ImageButton)sender).CommandArgument.Split(new char[] { '|' });
                 //Creo un nuevo ItemCarrito pasandole como parametro los valores del array
                 //[0] = Id, [1] = Nombre, [2] = Precio. 
                 ItemCarrito nuevo = new ItemCarrito(int.Parse(valores[0]), valores[1], Convert.ToDecimal(valores[2]), valores[3]);
