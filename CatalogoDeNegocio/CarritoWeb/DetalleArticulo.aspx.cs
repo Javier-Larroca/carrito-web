@@ -13,11 +13,16 @@ namespace CarritoWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //ArticuloNegocio articuloN = new ArticuloNegocio();
             try
             {
-                string Id = Request.QueryString["Id"];
 
-                lblSeleccionado.Text=Id;
+                int Id = int.Parse(Request.QueryString["Id"]);
+                List<Articulo> listado = (List<Articulo>)Session["ListadoDeArticulos"];
+                Articulo seleccionado = listado.Find(x => x.Id == Id);
+                lblNombre.Text=seleccionado.Nombre;
+                lblDescripcion.Text = seleccionado.Descripcion;
+                lblUrlImagen.Text = seleccionado.UrlImagen;
             }
             catch
             {

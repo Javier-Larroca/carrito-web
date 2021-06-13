@@ -2,7 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <h1>Detaller de articulo</h1>
-    <asp:Label Text="lalala" ID="lblSeleccionado" runat="server" />
+    <asp:Label Text="lalala" ID="lblNombre" runat="server" />
+    <asp:Label Text="lalala" ID="lblDescripcion" runat="server" />
+    <asp:Label Text="lalala" ID="lblUrlImagen" runat="server" />
+    <asp:Label Text="lalala" ID="lblPrecio" runat="server" />
+    <asp:Label Text="lalala" ID="lblMarca" runat="server" />
     <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
             <div class="col-md-4">
