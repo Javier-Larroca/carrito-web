@@ -13,13 +13,15 @@ namespace dominio
         public String NombreArticulo { get; set; }
         public String UrlImagenArticulo { get; set; }
         public decimal Precio { get; set; }
+        public decimal PrecioTotal { get; set; }
 
         public ItemCarrito(int idArticulo, String nombre, decimal precio, String UrlImagen)
         {
             IdArticulo = idArticulo;
             Cantidad = 1;
             NombreArticulo = nombre;
-            Precio = (Cantidad *precio);
+            Precio = precio;
+            PrecioTotal = (Cantidad *precio);
             UrlImagenArticulo = UrlImagen;
         }
 
@@ -31,13 +33,13 @@ namespace dominio
         public void sumarCantidad()
         {
             Cantidad++;
-            Precio = (Cantidad * Precio);
+            PrecioTotal = (Cantidad * Precio);
         }
 
         public void restarCantidad()
         {
             if (Cantidad != 0) Cantidad--;
-            Precio = (Cantidad * Precio);
+            PrecioTotal = (Cantidad * Precio);
         }
 
         public override string ToString()

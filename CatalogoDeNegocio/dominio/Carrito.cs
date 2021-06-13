@@ -9,24 +9,36 @@ namespace dominio
     public class Carrito
     {
         public List <ItemCarrito> ListaDeItems{ get; set; }
-        public int importeTotal { get; set; }
+        public decimal importeTotal { get; set; }
 
         public Carrito()
         {
             ListaDeItems = new List<ItemCarrito>();
             importeTotal = 0;
         }
+
+        public void sumarImporteTotal()
+        {
+            if (ListaDeItems.Any())
+            {
+                importeTotal = 0;
+                foreach (ItemCarrito item in ListaDeItems)
+                {
+                    importeTotal += item.PrecioTotal;
+                }
+            }
+            else
+            {
+                importeTotal = 0;
+            }
+        }
+
         public void agregarItemDeLista(ItemCarrito item)
         {
             int pos = posicionDeItem(item.IdArticulo);
             if (pos == -1) 
                 ListaDeItems.Add(item);
             else ListaDeItems[pos].sumarCantidad();
-        }
-
-        public void sumarImporte()
-        {
-
         }
 
         public void descontarCantidadDeItemsDeLista(int idArticuloADescontar)

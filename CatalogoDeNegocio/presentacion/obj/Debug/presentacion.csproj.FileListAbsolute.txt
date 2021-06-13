@@ -91,3 +91,29 @@ C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\pre
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.CopyComplete
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.exe
 C:\Users\evasquez\Desktop\Git\Programacion III\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.pdb
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\presentacion.exe.config
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\presentacion.exe
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\presentacion.pdb
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\aa-DJ\presentacion.resources.dll
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\dominio.dll
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\negocio.dll
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\dominio.pdb
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\bin\Debug\negocio.pdb
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csprojAssemblyReference.cache
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.formArticulo.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.formArticuloDetalles.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.FormCategoria.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.FormMarca.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.BusquedaArticulo.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VentanaInicio.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VentanaPrincipal.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.Properties.Resources.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VistaCategorias.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.VistaMarcas.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.FormMarca.aa-DJ.resources
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.GenerateResource.cache
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.CoreCompileInputs.cache
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\aa-DJ\presentacion.resources.dll
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.csproj.CopyComplete
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.exe
+C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\presentacion\obj\Debug\presentacion.pdb

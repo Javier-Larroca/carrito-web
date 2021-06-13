@@ -35,7 +35,9 @@ namespace CarritoWeb
                         ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
                         ItemsEnCarrito.DataBind();
                     }
+                    Carrito.sumarImporteTotal();
                 }
+
             }
             catch
             {
@@ -50,10 +52,12 @@ namespace CarritoWeb
                 //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
                 int idArticuloAEliminar = int.Parse(((Button)sender).CommandArgument);
                 Carrito.eliminarItemDeLista(idArticuloAEliminar);
+                Carrito.sumarImporteTotal();
                 Session.Add("CarritoDeCompras", Carrito);
                 ItemsEnCarrito.DataSource = null;
                 ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
                 ItemsEnCarrito.DataBind();
+
             }
             catch
             {
@@ -68,6 +72,7 @@ namespace CarritoWeb
                 //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
                 int idArticuloAEliminar = int.Parse(((ImageButton)sender).CommandArgument);
                 Carrito.eliminarItemDeLista(idArticuloAEliminar);
+                Carrito.sumarImporteTotal();
                 Session.Add("CarritoDeCompras", Carrito);
                 ItemsEnCarrito.DataSource = null;
                 ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
@@ -86,6 +91,7 @@ namespace CarritoWeb
                 //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
                 int idArticuloARestar = int.Parse(((ImageButton)sender).CommandArgument);
                 Carrito.descontarCantidadDeItemsDeLista(idArticuloARestar);
+                Carrito.sumarImporteTotal();
                 Session.Add("CarritoDeCompras", Carrito);
                 ItemsEnCarrito.DataSource = null;
                 ItemsEnCarrito.DataSource = Carrito.ListaDeItems;
@@ -104,6 +110,7 @@ namespace CarritoWeb
                 //Metodo explicado en ListaDeArticulos.aspx.cs linea 44 
                 int idArticuloAEliminar = int.Parse(((ImageButton)sender).CommandArgument);
                 Carrito.aumentarCantidadDeItemsDeLista(idArticuloAEliminar);
+                Carrito.sumarImporteTotal();
                 Session.Add("CarritoDeCompras", Carrito);
                 ItemsEnCarrito.DataSource = null;
                 ItemsEnCarrito.DataSource = Carrito.ListaDeItems;

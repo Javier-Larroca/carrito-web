@@ -18,7 +18,8 @@
                 <div class="col-md-8">
                   <div class="card-body">
                     <h5 class="card-title"><%#Eval("NombreArticulo") %></h5>
-                    <p class="card-text">Total: $<%#Eval("Precio")%></p>
+                    <p class="card-text">Precio Unitario: $<%#Eval("Precio")%></p>
+                    <p class="card-text">Precio Total: $<%#Eval("PrecioTotal")%></p>
                       <ul class="iconosCardCarrito">
                           <li>
                               <asp:ImageButton src="img/minus-solid.svg" class="iconoCarrito" ID="Restar" OnClick="Restar_Click" CommandArgument='<%#Eval("IdArticulo")%>' runat="server" />
@@ -43,5 +44,6 @@
             </ItemTemplate>
             
         </asp:Repeater>
+        <h5>Importe Total: $<%= Carrito.importeTotal %></h5>
     <%}%>
 </asp:Content>
