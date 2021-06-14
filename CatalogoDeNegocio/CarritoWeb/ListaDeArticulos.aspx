@@ -28,7 +28,7 @@
                             <div class="card-body">
                                 <h5 class="card-title"><%#Eval("Nombre") %></h5>
                                 <p class="card-text"><%#Eval("Descripcion") %>.</p>
-
+                                
                                 <ul class="iconosCard">
                                     <li>
                                         <asp:ImageButton src="img/cart-plus-fill.svg" class="iconoCarrito" ID="Carrito" OnClick="Carrito_Click" CommandArgument='<%#Eval("Id") + "|" + Eval("Nombre") + "|" + Eval("Precio") + "|" + Eval("UrlImagen")%>' Style="width: 28px;" runat="server" />
