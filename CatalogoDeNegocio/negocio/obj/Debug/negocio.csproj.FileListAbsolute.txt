@@ -43,3 +43,12 @@ C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\n
 C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.csproj.CopyComplete
 C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.dll
 C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.pdb
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\bin\Debug\negocio.dll
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\bin\Debug\negocio.pdb
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\bin\Debug\dominio.dll
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\bin\Debug\dominio.pdb
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.csprojAssemblyReference.cache
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.csproj.CoreCompileInputs.cache
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.csproj.CopyComplete
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.dll
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\negocio\obj\Debug\negocio.pdb

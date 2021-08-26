@@ -28,3 +28,9 @@ C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\d
 C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
 C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
 C:\Users\javie\Desktop\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\dominio\bin\Debug\dominio.dll
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\dominio\bin\Debug\dominio.pdb
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csprojAssemblyReference.cache
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.csproj.CoreCompileInputs.cache
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.dll
+C:\Users\javie\Documents\UTN\Z - 3º CUAT\Programacion III\carrito\carrito-web\CatalogoDeNegocio\dominio\obj\Debug\dominio.pdb

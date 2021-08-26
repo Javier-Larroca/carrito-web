@@ -15,6 +15,7 @@ namespace dominio
         {
             Nombre = nombre;
         }
+
         public Marca()
         {
 
